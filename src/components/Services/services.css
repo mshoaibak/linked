@@ -1,0 +1,23 @@
+.services-main {
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px 0;
+  background: linear-gradient(#a8dba4, white);
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.service-card {
+  outline: 1px solid grey;
+  border-radius: 10px;
+}
+
+.service-card:hover {
+  outline: 1px solid #509d4a;
+}
+h1 {
+  font-size: 3rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

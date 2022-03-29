@@ -1,0 +1,50 @@
+.main {
+  /* background: white; */
+  width: 100%;
+  min-width: 100vh;
+  padding-top: 150px;
+  font-family: "Manrope", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+h3 {
+  font-weight: bold;
+}
+.h5 {
+  font-weight: bold;
+}
+.h3 {
+  position: relative;
+  font-weight: bold;
+}
+.h3::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 5%;
+  left: 0%;
+  border-bottom: 2px solid white;
+}
+
+.h3b {
+  position: relative;
+  font-weight: bold;
+}
+
+.h3b::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 5%;
+  left: 0%;
+  border-bottom: 2px solid black;
+}
+
+p {
+  font-weight: bold;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
