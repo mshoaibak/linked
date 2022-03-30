@@ -25,11 +25,16 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 .header-data {
-  width: 400px;
+  width: 50%;
   margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
 }
 .header-data h1 {
   color: white;
+  font-size: 3.4rem;
 }
 .header-data p {
   color: white;
@@ -38,5 +43,19 @@ h1 {
   position: relative;
   right: 0;
   bottom: 0;
+}
+
+@media only screen and (max-width: 575px) {
+  .header-data h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  .service-card {
+    /* margin: 0; */
+  }
+
+  .header-data {
+    width: 70%;
+  }
 }
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

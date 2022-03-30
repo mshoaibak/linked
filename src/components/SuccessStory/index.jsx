@@ -14,8 +14,8 @@ const SuccessStory = () => {
           <Carousel.Item>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <Container>
-                <Row style={{ height: "70vh" }}>
-                  <Col md={4} style={{ height: "70vh" }}>
+                <Row style={{}}>
+                  <Col xs={12} sm={12} md={4} style={{ height: "70vh" }}>
                     <img
                       width={"100%"}
                       height={"100%"}
@@ -25,6 +25,8 @@ const SuccessStory = () => {
                     />
                   </Col>
                   <Col
+                    xs={12}
+                    sm={12}
                     md={8}
                     style={{
                       height: "70vh",
@@ -62,7 +64,7 @@ const SuccessStory = () => {
           <Carousel.Item>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <Container>
-                <Row style={{ height: "70vh" }}>
+                <Row>
                   <Col md={4} style={{ height: "70vh" }}>
                     <img
                       width={"100%"}
@@ -73,6 +75,7 @@ const SuccessStory = () => {
                     />
                   </Col>
                   <Col
+                    // className="bor"
                     md={8}
                     style={{
                       height: "70vh",
@@ -82,7 +85,7 @@ const SuccessStory = () => {
                       flexDirection: "column",
                     }}
                   >
-                    <hr />
+                    <hr className="newh" />
 
                     <img
                       width={50}
@@ -109,7 +112,7 @@ const SuccessStory = () => {
           <Carousel.Item>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <Container>
-                <Row style={{ height: "70vh" }}>
+                <Row>
                   <Col md={4} style={{ height: "70vh" }}>
                     <img
                       //   width={200}

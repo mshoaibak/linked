@@ -1,5 +1,5 @@
 import { ServicesData } from "../../assest/ServicesData";
-import { Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col, Container } from "react-bootstrap";
 import "./services.css";
 const Services = () => {
   return (
@@ -8,32 +8,43 @@ const Services = () => {
         <h1 className="text-center mb-5 mt-5 font-weight-bold text-dark ">
           Services
         </h1>
-        <Row style={{ width: "100%", margin: "0 auto" }} className="mx-auto">
-          {ServicesData.map((val) => {
-            return (
-              <Col
-                sm={12}
-                md={3}
-                style={{ margin: "15px 40px" }}
-                className="service-card"
-              >
-                {/* <Card className="bg-transparent"> */}
-                <img
-                  src={val.icon}
-                  alt="service"
-                  width={50}
-                  height={50}
-                  style={{ marginLeft: "20px", marginTop: "20px" }}
-                />
-                <Card.Body>
-                  <h2 className="text-dark font-weight-bold">{val.title}</h2>
-                  <h6 className="text-dark font-weight-bold">{val.text}</h6>
-                </Card.Body>
-                {/* </Card> */}
-              </Col>
-            );
-          })}
-        </Row>
+        <Container>
+          <Row style={{ width: "100%", margin: "0 auto" }} className="mx-auto">
+            {ServicesData.map((val) => {
+              return (
+                <Col
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  // style={{ margin: "15px 40px" }}
+                  className="service-card "
+                >
+                  <div
+                    style={{
+                      width: "80%",
+                      border: "1px solid white",
+                      borderRadius: "10px",
+                    }}
+                  >
+                    <img
+                      src={val.icon}
+                      alt="service"
+                      width={50}
+                      height={50}
+                      style={{ marginLeft: "20px", marginTop: "20px" }}
+                    />
+                    <Card.Body>
+                      <h2 className="text-dark font-weight-bold">
+                        {val.title}
+                      </h2>
+                      <h6 className="text-dark font-weight-bold">{val.text}</h6>
+                    </Card.Body>
+                  </div>
+                </Col>
+              );
+            })}
+          </Row>
+        </Container>
       </div>
     </>
   );

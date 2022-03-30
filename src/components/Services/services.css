@@ -6,18 +6,29 @@
   font-family: "Manrope", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
+  background: #5cdb95;
 }
 
 .service-card {
-  outline: 1px solid grey;
+  /* outline: 1px solid grey; */
   border-radius: 10px;
+
+  /* margin: 5px 40px; */
+  margin: 10px 0;
 }
 
 .service-card:hover {
-  outline: 1px solid #509d4a;
+  /* outline: 1px solid white; */
 }
 h1 {
   font-size: 3rem;
+}
+
+@media only screen and (max-width: 575px) {
+  .service-card {
+    margin: 10px 0;
+    width: 50%;
+  }
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

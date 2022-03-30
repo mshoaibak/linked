@@ -2,6 +2,7 @@
   width: 100%;
   min-height: 100vh;
   padding: 30px 0;
+  background: white;
 }
 
 .txtbox {
@@ -29,13 +30,13 @@
   margin-right: 5px;
 }
 .btnn {
-  background: #a8dba4;
+  background: #5cdb95;
   border: none;
   padding: 8px 20px;
 }
 h4 {
   position: relative;
-  color: #a8dba4;
+  color: #5cdb95;
 }
 h4::before {
   content: "";
@@ -44,7 +45,7 @@ h4::before {
   top: 100%;
   width: 5%;
   /* left: 25%; */
-  border-bottom: 5px solid #a8dba4;
+  border-bottom: 5px solid #5cdb95;
 }
 
 .contactRight {
@@ -65,8 +66,18 @@ h4::before {
 .blue {
   color: blue;
 }
+
+.h6d {
+  color: #5cdb95;
+}
 img {
   margin-right: -100px;
 }
 
+input:focus {
+  outline: none;
+}
+textarea:focus {
+  outline: none;
+}
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");
