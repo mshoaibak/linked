@@ -20,7 +20,13 @@ const Footer = () => {
     <>
       <div className="footer-main" id="footer">
         <h1 className="ml-5 mb-5 mt-5 text-dark font-weight-bold">
-          <img height={100} width={100} src={Logo} alt="logo" />
+          <img
+            height={100}
+            width={100}
+            src={Logo}
+            alt="logo"
+            className="ml-5"
+          />
         </h1>
         <Container className="mb-5 mt-5">
           <Row>
@@ -92,7 +98,7 @@ const Footer = () => {
               color: "white",
             }}
           >
-            <Col md={6}>
+            {/* <Col md={6}>
               <div
                 style={{
                   display: "flex",
@@ -105,7 +111,7 @@ const Footer = () => {
               >
                 <h6 style={{ fontWeight: "bold" }}>copyrights © 2022</h6>
               </div>
-            </Col>
+            </Col> */}
 
             <Col md={4}>
               <div style={{ display: "flex", justifyContent: "space-around" }}>

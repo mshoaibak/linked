@@ -1,66 +1,3 @@
-// import "./Nav.css";
-// import { Container, Navbar, Nav } from "react-bootstrap";
-// import Logo from "../../assest/serviceImages/logo.png";
-// import Logo2 from "../../assest/serviceImages/logo2.png";
-// import { useEffect, useState } from "react";
-
-// const Navigation = () => {
-//   const [fixNav, setFixNav] = useState(false);
-
-//   const toggleVisible = () => {
-//     if (document.documentElement.scrollTop >= 66) {
-//       setFixNav(true);
-//     }
-//   };
-
-//   window.addEventListener("scroll", toggleVisible);
-
-//   return (
-//     <>
-//       <Navbar
-//         bg={fixNav ? "white" : "transparant"}
-//         expand="lg"
-//         className="main-nav fixed-top "
-//       >
-//         <Container>
-//           <Navbar.Brand
-//             href="#home"
-//             className={fixNav ? "text-dark" : "text-white"}
-//           >
-//             <img width={100} height={100} src={Logo} alt={"logo"} />
-//           </Navbar.Brand>
-//           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-//           <Navbar.Collapse id="basic-navbar-nav">
-//             <Nav className="ml-auto">
-//               <Nav.Link
-//                 href="#services"
-//                 className={`text-dark font-weight-bold link`}
-//               >
-//                 Services
-//               </Nav.Link>
-
-//               <Nav.Link
-//                 href="#contact"
-//                 className="text-dark font-weight-bold link"
-//               >
-//                 Contact
-//               </Nav.Link>
-//               <Nav.Link
-//                 href="/about"
-//                 className="text-dark font-weight-bold link"
-//               >
-//                 About Us
-//               </Nav.Link>
-//             </Nav>
-//           </Navbar.Collapse>
-//         </Container>
-//       </Navbar>
-//     </>
-//   );
-// };
-
-// export default Navigation;
-
 import React, { useState } from "react";
 import "./Nav.css";
 import Logo from "../../assest/serviceImages/logo.png";
@@ -68,7 +5,12 @@ import Logo2 from "../../assest/serviceImages/logo2.png";
 import leftImg from "../../assest/serviceImages/leftli.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faClose, faBars, faL } from "@fortawesome/free-solid-svg-icons";
+import {
+  faClose,
+  faBars,
+  faCaretDown,
+  faAngleDown,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navigation = () => {
   const [subnav, setSubnav] = useState(false);
@@ -111,6 +53,7 @@ const Navigation = () => {
               // className="listBorder hello"
             >
               <a>Services</a>
+              <FontAwesomeIcon icon={faAngleDown} className="drop-icon" />
 
               {/* <ul>
                 <li>nested 1</li>

@@ -11,10 +11,10 @@
 
 .service-card {
   /* outline: 1px solid grey; */
-  border-radius: 10px;
+  border-radius: 4px;
 
   /* margin: 5px 40px; */
-  margin: 10px 0;
+  margin: 50px 0;
 }
 
 .serve {

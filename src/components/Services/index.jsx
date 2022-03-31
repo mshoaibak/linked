@@ -8,7 +8,7 @@ const Services = () => {
         <h1 className="text-center mb-5 mt-5 font-weight-bold text-dark ">
           Services
         </h1>
-        <Container>
+        <Container style={{ width: "80%", margin: "0 auto" }}>
           <Row style={{ width: "100%", margin: "0 auto" }} className="mx-auto">
             {ServicesData.map((val) => {
               return (
@@ -23,7 +23,7 @@ const Services = () => {
                     className="serve mx-auto"
                     style={{
                       width: "90%",
-                      borderRadius: "10px",
+                      borderRadius: "4px",
                     }}
                   >
                     <img

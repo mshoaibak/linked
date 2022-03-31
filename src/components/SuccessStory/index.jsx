@@ -15,13 +15,23 @@ const SuccessStory = () => {
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <Container>
                 <Row style={{}}>
-                  <Col xs={12} sm={12} md={4} style={{ height: "70vh" }}>
+                  <Col
+                    xs={12}
+                    sm={12}
+                    md={4}
+                    style={{
+                      height: "70vh",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
                     <img
                       width={"80%"}
                       height={"80%"}
                       style={{ objectFit: "cover" }}
                       src={image}
                       alt="First slide"
+                      className="mx-auto"
                     />
                   </Col>
                   <Col
