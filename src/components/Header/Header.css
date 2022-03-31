@@ -1,9 +1,18 @@
 .button1 {
-  padding: 15px;
-  width: 200px;
+  padding: 12px;
+  width: 180px;
   outline: none;
   border: none;
-  border-radius: 20px;
+  font-weight: bold;
+  /* border-radius: 20px; */
+}
+
+.button1 a {
+  text-decoration: none;
+  color: black;
+}
+.button1 a:hover {
+  color: black;
 }
 p {
   margin: 0 auto;
@@ -25,16 +34,18 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 .header-data {
-  width: 50%;
-  margin: auto;
-  display: flex;
-  justify-content: flex-start;
+  width: 100%;
+  /* margin: auto; */
+  /* display: flex; */
+  /* justify-content: flex-start; */
   align-items: center;
   flex-direction: column;
+  padding: 0 20px;
 }
 .header-data h1 {
   color: white;
   font-size: 3.4rem;
+  text-align: left;
 }
 .header-data p {
   color: white;

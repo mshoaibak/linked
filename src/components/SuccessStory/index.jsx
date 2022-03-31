@@ -17,8 +17,8 @@ const SuccessStory = () => {
                 <Row style={{}}>
                   <Col xs={12} sm={12} md={4} style={{ height: "70vh" }}>
                     <img
-                      width={"100%"}
-                      height={"100%"}
+                      width={"80%"}
+                      height={"80%"}
                       style={{ objectFit: "cover" }}
                       src={image}
                       alt="First slide"
@@ -67,8 +67,8 @@ const SuccessStory = () => {
                 <Row>
                   <Col md={4} style={{ height: "70vh" }}>
                     <img
-                      width={"100%"}
-                      height={"100%"}
+                      width={"80%"}
+                      height={"80%"}
                       style={{ objectFit: "cover" }}
                       src={image}
                       alt="First slide"
@@ -117,8 +117,9 @@ const SuccessStory = () => {
                     <img
                       //   width={200}
                       //   height={400}
-                      width={"100%"}
-                      height={"100%"}
+                      className="imgsuccess"
+                      width={"80%"}
+                      height={"80%"}
                       style={{ objectFit: "cover" }}
                       src={image}
                       alt="First slide"

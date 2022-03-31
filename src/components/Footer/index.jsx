@@ -3,10 +3,22 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../../assest/serviceImages/logo.png";
 import "./footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faClose, faBars, faL } from "@fortawesome/free-solid-svg-icons";
+import {
+  faTwitter,
+  faFacebook,
+  faDiscord,
+  faInstagram,
+  faReddit,
+  faSnapchat,
+  faYoutube,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <>
-      <div className="footer-main">
+      <div className="footer-main" id="footer">
         <h1 className="ml-5 mb-5 mt-5 text-dark font-weight-bold">
           <img height={100} width={100} src={Logo} alt="logo" />
         </h1>
@@ -63,6 +75,52 @@ const Footer = () => {
               <h6 className="font-weight-bold">Robotic Process Automation</h6>
               <h6 className="font-weight-bold">E-learning</h6>
               <h6 className="font-weight-bold">Learning</h6>
+            </Col>
+          </Row>
+          <Row
+            style={{
+              borderTop: "1px solid white",
+              // background: "red",
+              display: "flex",
+              justifyContent: "space-around",
+              alignItems: "center",
+              padding: "20px ",
+              // marginTop: "auto",
+              position: "absolute",
+              left: 0,
+              width: "100%",
+              color: "white",
+            }}
+          >
+            <Col md={6}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  color: "#05386b",
+                  fontSize: "1.2rem",
+                  fontWeight: "bold",
+                }}
+              >
+                <h6 style={{ fontWeight: "bold" }}>copyrights © 2022</h6>
+              </div>
+            </Col>
+
+            <Col md={4}>
+              <div style={{ display: "flex", justifyContent: "space-around" }}>
+                <FontAwesomeIcon icon={faFacebook} color="#05386b" size="lg" />
+                <FontAwesomeIcon icon={faTwitter} color="#1DA1F2" size="lg" />
+
+                <FontAwesomeIcon icon={faDiscord} color="#5865F2" size="lg" />
+                <FontAwesomeIcon icon={faInstagram} color="#E1306C" size="lg" />
+                <FontAwesomeIcon icon={faReddit} color="red" size="lg" />
+
+                <FontAwesomeIcon icon={faLinkedin} color="blue" size="lg" />
+                <FontAwesomeIcon icon={faSnapchat} color="yellow" size="lg" />
+
+                <FontAwesomeIcon icon={faYoutube} color="red" size="lg" />
+              </div>
             </Col>
           </Row>
         </Container>

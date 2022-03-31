@@ -13,19 +13,29 @@ const Fixed = () => {
         <Container>
           <Row
             style={{
-              boxShadow: "0 3px 10px rgb(0 0 0 / 20%)",
+              // boxShadow: "0 3px 10px rgb(0 0 0 / 20%)",
+              height: "90vh",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
             }}
           >
             <Col
               sm={12}
               md={6}
-              style={{ padding: "100px 10px", background: "#5cdb95" }}
+              style={{
+                boxShadow: "0 3px 10px rgb(0 0 0 / 20%)",
+
+                padding: "100px 10px",
+                background: "#5cdb95",
+                height: "80vh",
+              }}
             >
               <h3 className="text-white h3 font-weight-bold">
                 Build Your Dedicated Teams
               </h3>
-              <Container>
-                <Row className="text-white">
+              <Container className="middle">
+                <Row className="text-white ">
                   <Col md={8}>
                     <h5 className="h5 font-weight-bold ">
                       Our Team At Your Service
@@ -52,14 +62,18 @@ const Fixed = () => {
               sm={12}
               md={6}
               style={{
-                background: "#5cdb95",
+                boxShadow: "0 3px 10px rgb(0 0 0 / 20%)",
+
+                background: "white",
                 padding: "100px 10px",
+
+                height: "80vh",
               }}
             >
               <h3 className="h3b font-weight-bold">
                 Build Your Dedicated Teams
               </h3>
-              <Container>
+              <Container className="middle">
                 <Row
                   style={{
                     display: "flex",

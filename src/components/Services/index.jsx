@@ -20,9 +20,9 @@ const Services = () => {
                   className="service-card "
                 >
                   <div
+                    className="serve mx-auto"
                     style={{
-                      width: "80%",
-                      border: "1px solid white",
+                      width: "90%",
                       borderRadius: "10px",
                     }}
                   >

@@ -10,7 +10,7 @@ const Contact = () => {
           <h4 className="font-weight-bold">Contact Us</h4>
 
           <Row>
-            <Col sm={12} md={8}>
+            <Col sm={12} md={7}>
               <form>
                 <input className="txtbox" type={"text"} placeholder="Name" />
                 <input className="txtbox" type={"email"} placeholder="Email" />
@@ -25,9 +25,7 @@ const Contact = () => {
                 <textarea className="txtarea" placeholder="Message" />
                 <br />
                 <input className="chkbox" type={"checkbox"} />
-                <label className="font-weight-bold">
-                  check here to subscribe for updates
-                </label>
+                <label className="">check here to subscribe for updates</label>
                 <br />
                 <input
                   className="btnn font-weight-bold"
@@ -36,7 +34,7 @@ const Contact = () => {
                 />
               </form>
             </Col>
-            <Col sm={12} md={4}>
+            <Col sm={12} md={5}>
               <div className="contactRight">
                 <img alt="contact" width={200} height={100} src={icon} />
                 <div>

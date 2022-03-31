@@ -17,4 +17,11 @@ hr.newh {
   /* border: 1px solid white; */
   /* color: white; */
 }
+
+@media only screen and (max-width: 500px) {
+  .imgsuccess {
+    object-fit: contain;
+    margin: 0 auto;
+  }
+}
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap");

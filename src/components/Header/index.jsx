@@ -10,14 +10,13 @@ const Header = () => {
         <Navigation />
 
         <div className="header-data">
-          <h1 className="font-weight-bold">Header Heading</h1>
+          <h1 className="font-weight-bold">We Engineer Software Solutions</h1>
           <p className="font-weight-bold">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Enterprises . Growth Companies . Startups
           </p>
-          <button className="button1">Check out</button>
+          <button className="button1">
+            <a href="#footer">Lets Talk</a>
+          </button>
         </div>
       </div>
     </>

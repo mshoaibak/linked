@@ -1,8 +1,7 @@
 .contact-main {
   width: 100%;
   min-height: 100vh;
-  padding: 30px 0;
-  background: white;
+  padding: 30px 50px;
 }
 
 .txtbox {
@@ -33,6 +32,7 @@
   background: #5cdb95;
   border: none;
   padding: 8px 20px;
+  color: #05386b;
 }
 h4 {
   position: relative;

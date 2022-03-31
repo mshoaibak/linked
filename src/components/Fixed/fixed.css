@@ -2,8 +2,8 @@
   /* background: white; */
   background: #5cdb95;
   width: 100%;
-  min-height: 100vh;
-  padding-top: 150px;
+  min-height: 150vh;
+  padding: auto 0;
   font-family: "Manrope", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -11,6 +11,7 @@
 }
 h3 {
   font-weight: bold;
+  margin: 10px 0;
 }
 .h5 {
   font-weight: bold;
@@ -18,6 +19,7 @@ h3 {
 .h3 {
   position: relative;
   font-weight: bold;
+  margin: 10px 0;
 }
 .h3::before {
   content: "";
@@ -29,6 +31,9 @@ h3 {
   border-bottom: 2px solid white;
 }
 
+.middle {
+  margin: 30px 0;
+}
 .h3b {
   position: relative;
   font-weight: bold;

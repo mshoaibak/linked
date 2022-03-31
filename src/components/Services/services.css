@@ -17,6 +17,13 @@
   margin: 10px 0;
 }
 
+.serve {
+  outline: 1px solid white;
+}
+.serve:hover {
+  outline: 1px solid #05386b;
+}
+
 .service-card:hover {
   /* outline: 1px solid white; */
 }
